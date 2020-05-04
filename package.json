@@ -20,7 +20,7 @@
     "prepare": "NODE_ENV=production npm run build",
     "test": "find src -name '*.spec.test.ts' | TS_NODE_FILES=true TS_NODE_CACHE=false TS_NODE_COMPILER_OPTIONS='{\"module\":\"commonjs\"}' xargs mocha -r ts-node/register --require source-map-support/register",
     "verify": "find src -name '*.integration.test.ts' | TS_NODE_FILES=true TS_NODE_CACHE=false TS_NODE_COMPILER_OPTIONS='{\"module\":\"commonjs\"}' xargs mocha -r ts-node/register --require source-map-support/register",
-    "verify:browser":" testcafe --app-init-timeout 4000 --selector-timeout 2000 --assertion-timeout 2000 chrome browser-test/browser-test.js",
+    "verify:browser": " testcafe --app-init-timeout 4000 --selector-timeout 2000 --assertion-timeout 2000 chrome browser-test/browser-test.js",
     "lint-fix": "tslint --fix -c tslint.json -p tsconfig.lint.json",
     "semantic-release": "semantic-release"
   },
@@ -30,6 +30,7 @@
     "sanitize-html": "^1.20.1",
     "typescript-chained-error": "^1.3.2",
     "universe-log": "^2.1.0",
+    "url": "^0.11.0",
     "xmldom": "^0.1.27"
   },
   "devDependencies": {
@@ -49,7 +50,6 @@
     "@types/xmldom": "^0.1.29",
     "chai": "^4.2.0",
     "chai-as-promised": "^7.1.1",
-    "husky": "^3.0.3",
     "jsdom": "^15.1.1",
     "lodash": "^4.17.15",
     "mocha": "^6.2.0",
