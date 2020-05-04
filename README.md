@@ -1,4 +1,4 @@
-# steem-content-renderer
+# hive-content-renderer
 
 [![npm](https://img.shields.io/npm/v/steem-content-renderer.svg?style=flat-square)](https://www.npmjs.com/package/steem-content-renderer) [![License](https://img.shields.io/github/license/wise-team/steem-content-renderer.svg?style=flat-square)](https://github.com/wise-team/steem-content-renderer/blob/master/LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![Chat](https://img.shields.io/badge/chat%20on%20discord-6b11ff.svg?style=flat-square)](https://discordapp.com/invite/CwxQDbG)
 
