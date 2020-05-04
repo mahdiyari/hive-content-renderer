@@ -3,6 +3,7 @@ import ow from "ow";
 import { Log } from "../Log";
 
 import { Phishing } from "./Phishing";
+import { URL } from "url";
 
 export class LinkSanitizer {
     private options: LinkSanitizer.Options;
