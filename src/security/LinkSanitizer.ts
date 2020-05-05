@@ -5,7 +5,6 @@ import { Log } from "../Log";
 
 import { Phishing } from "./Phishing";
 
-
 export class LinkSanitizer {
     private options: LinkSanitizer.Options;
     private baseUrl: URL;
