@@ -25,6 +25,7 @@
     "semantic-release": "semantic-release"
   },
   "dependencies": {
+    "@types/url-parse": "^1.4.3",
     "ow": "^0.13.2",
     "remarkable": "^1.7.1",
     "sanitize-html": "^1.20.1",
