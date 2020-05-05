@@ -3,17 +3,17 @@ import ow from "ow";
 import { Log } from "../Log";
 
 import { Phishing } from "./Phishing";
-import { URL } from "url";
+import * as URL from "url";
 
 export class LinkSanitizer {
     private options: LinkSanitizer.Options;
-    private baseUrl: URL;
+    private baseUrl: URL.URL;
     private topLevelsBaseDomain: string;
 
     public constructor(options: LinkSanitizer.Options) {
         LinkSanitizer.Options.validate(options);
         this.options = options;
-        this.baseUrl = new URL(this.options.baseUrl);
+        this.baseUrl = new URL.URL(this.options.baseUrl);
         this.topLevelsBaseDomain = this.getTopLevelBaseDomainFromBaseUrl(this.baseUrl);
     }
 
