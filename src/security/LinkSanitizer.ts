@@ -1,9 +1,10 @@
 import ow from "ow";
+import * as URL from "url-parse";
 
 import { Log } from "../Log";
 
 import { Phishing } from "./Phishing";
-import * as URL from "url-parse";
+
 
 export class LinkSanitizer {
     private options: LinkSanitizer.Options;
