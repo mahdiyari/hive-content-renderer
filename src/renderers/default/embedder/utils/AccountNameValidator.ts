@@ -3,8 +3,6 @@
  */
 import { DefaultRendererLocalization } from "../../DefaultRendererLocalization";
 
-import BadActorList from "./BadActorList";
-
 export class AccountNameValidator {
     // tslint:disable cyclomatic-complexity
     public static validateAccountName(value: string, localization: DefaultRendererLocalization) {
@@ -23,9 +21,6 @@ export class AccountNameValidator {
         }
         if (length > 16) {
             return localization.accountNameWrongLength;
-        }
-        if (BadActorList.includes(value)) {
-            return localization.accountNameBadActor;
         }
         ref = value.split(".");
         for (i = 0, len = ref.length; i < len; i++) {

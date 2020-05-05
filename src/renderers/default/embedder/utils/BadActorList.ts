@@ -2,6 +2,6 @@
  * Based on: https://raw.githubusercontent.com/steemit/condenser/master/src/app/utils/BadActorList.js
  */
 
-const list = []
+// const list = []
 
-export default list;
+// export default list;
