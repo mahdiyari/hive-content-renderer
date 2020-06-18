@@ -1,8 +1,0 @@
-{
-	"folders": [{
-		"path": ".."
-	}],
-	"settings": {
-		"editor.rulers": [110, 120]
-	}
-}
