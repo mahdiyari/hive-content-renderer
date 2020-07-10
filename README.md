@@ -13,7 +13,7 @@ $ npm install --save hive-content-renderer
 **Typescript:**
 
 ```typescript
-import { DefaultRenderer } from 'hive-content-renderer'
+import DefaultRenderer from 'hive-content-renderer'
 
 const renderer = new DefaultRenderer({
   baseUrl: 'https://hive.blog/',
@@ -41,7 +41,7 @@ const safeHtmlStr = renderer.render(postContent)
 ```html
         <script src="https://unpkg.com/hive-content-renderer"></script>
         <script>
-            const renderer = new SteemContentRenderer.DefaultRenderer({
+            const renderer = new HiveContentRenderer({
                 baseUrl: "https://hive.blog/",
                 breaks: true,
                 skipSanitization: false,

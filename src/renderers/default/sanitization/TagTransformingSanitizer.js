@@ -1,7 +1,7 @@
 /**
  * This file is based on https://github.com/steemit/condenser/blob/master/src/app/utils/SanitizeConfig.js
  */
-const sanitize = require('sanitize-html')
+const sanitize = require('sanitize-html-2')
 const StaticConfig = require('../StaticConfig')
 
 class TagTransformingSanitizer {
