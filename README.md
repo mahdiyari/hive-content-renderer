@@ -36,10 +36,10 @@ const safeHtmlStr = renderer.render(postContent)
 
 ## Browser usage:
 
-** NOT WORKING RIGHT NOW **
+CDN: https://cdn.jsdelivr.net/npm/hive-content-renderer/dist/hive-content-renderer.min.js
 
 ```html
-        <script src="https://unpkg.com/hive-content-renderer"></script>
+        <script src="https://cdn.jsdelivr.net/npm/hive-content-renderer/dist/hive-content-renderer.min.js"></script>
         <script>
             const renderer = new HiveContentRenderer({
                 baseUrl: "https://hive.blog/",
